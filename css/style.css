@@ -1,0 +1,223 @@
+/*common styles*/
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+/*@media templates*/
+@media (max-width: 1200px) {
+	
+	
+
+}
+
+@media (max-width: 992px) {
+	
+	
+
+}
+
+@media (max-width: 768px) {
+	
+
+
+}
+
+@media (max-width: 479px) {
+	
+
+
+}
+
+/*main styles*/
+
+.container {
+	max-width: 1030px;
+}
+
+/* ------------------------>>> header <<<----------------------------------------------------- */
+.header {
+	height: 100px;
+}
+
+.header__link {
+	display: block;
+	float: left;
+	margin: 14px 0 0;
+}
+
+.header__img {
+	display: inline-block;
+	height: 77px;
+	width: 129px;
+}
+
+.header__phoneOrder {
+	float: right;
+	margin: 23px 0 0;
+}
+
+.header__phone {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	line-height: 15px;
+	
+	-webkit-transition: all .6s ease 0s;
+	-moz-transition: all .6s ease 0s;
+	-o-transition: all .6s ease 0s;
+	transition: all .6s ease 0s;
+
+	margin: 0 0 7px;
+}
+
+.header__phone:hover {
+	color: #098fb6;
+}
+
+.header__orderButton {
+	color: #fff;
+	text-align: center;
+	width: 132px;
+	padding: 4px 7px 8px;
+	font-size: 15px;
+	line-height: 17px;
+	font-family: 'latoregular';
+	display: block;
+	background: #098fb6;
+
+	border: 1px solid #098fb6;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+
+	-webkit-transition: all .6s ease 0s;
+	-moz-transition: all .6s ease 0s;
+	-o-transition: all .6s ease 0s;
+	transition: all .6s ease 0s;z
+}
+
+.header__orderButton:hover {
+	background: #fff;
+	color: #098fb6;
+}
+
+.glyphicon.glyphicon-menu-hamburger {
+	display: none;
+}
+
+.header__nav {
+	display: table;
+	margin: 30px auto 0;
+}
+
+.header__navList:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.header__navItem {
+	float: left;
+}
+
+.header__navLink {
+	display: block;
+	font-family: 'latoregular';
+	font-size: 15px;
+	line-height: 16px;
+	color: #000;
+	padding: 10px 23px;
+}
+
+@media ( max-width: 768px ) {
+
+	.header__navList {
+		display: none;
+	}
+
+	.glyphicon.glyphicon-menu-hamburger {
+		display: block;
+		font-size: 30px;
+		color: #098fb6;
+		position: absolute;
+		right: 0;
+		top: 50%;
+	}
+
+	.glyphicon.glyphicon-menu-hamburger:hover {
+		cursor: pointer;
+	}
+
+	.header__phoneOrder {
+		position: relative;
+		padding-right: 50px;
+	}
+
+	.header__navList {
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+		z-index: 999;
+	}
+
+	.header__navItem {
+		float: none;
+	}
+
+	.header__navLink {
+		text-align: center;
+		background: #000;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		opacity: .8;
+
+		-webkit-transition: all .6s ease 0s;
+		-moz-transition: all .6s ease 0s;
+		-o-transition: all .6s ease 0s;
+		transition: all .6s ease 0s;
+	}
+
+	.header__navLink:hover {
+		color: #fff;
+		background: #2e2b2e;
+	}
+
+
+}
+
+@media ( max-width: 360px ) {
+
+	.header {
+		height: 197px;
+	}
+
+	.header__link {
+		float: none;
+		text-align: center;
+	}
+
+	.header__phoneOrder {
+		float: none;
+	}
+
+}
+
+/* ------------------------>>> header End <<<------------------------------------------------- */
+
+
+.mainSection {
+	font-family: "merriweatherlightital";
+}
+
+
+
+
